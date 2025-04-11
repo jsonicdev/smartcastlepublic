@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Smart Castle</title>
+		<link rel="stylesheet" href="src/css/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id="header-placeholder"></div>
+			<main class="main">
+				<section class="main__section1 section1">
+					<div class="main-section1__container">
+						<img
+							src="src/assets/logo-mobile.png"
+							class="main-section1__img"
+							alt="logo"
+						/>
+						<h1 class="main-section1__title" lang="ru">
+							курсы по <br />
+							<span class="main-section1__title2 hyphen-text"
+								>программированию</span
+							><br />
+							в очном формате
+						</h1>
+						<p class="main-section1__description">
+							От студента до разработчика — начни карьеру в IT <br />
+							на очных курсах программирования с нуля!
+						</p>
+						<div class="main-section1__btns">
+							<button class="main-section1__btn1">
+								Наши курсы
+								<svg
+									class="main-section__btn-svg"
+									width="24px"
+									height="24px"
+									viewBox="0 0 32 32"
+									fill="#000000"
+								>
+									<g id="SVGRepo_iconCarrier">
+										<g
+											id="Page-1"
+											stroke="none"
+											stroke-width="1"
+											fill="none"
+											fill-rule="evenodd"
+											sketch:type="MSPage"
+										>
+											<g
+												id="Icon-Set"
+												sketch:type="MSLayerGroup"
+												transform="translate(-100.000000, -1087.000000)"
+												fill="#f81"
+											>
+												<path
+													d="M116,1117 C108.268,1117 102,1110.73 102,1103 C102,1095.27 108.268,1089 116,1089 C123.732,1089 130,1095.27 130,1103 C130,1110.73 123.732,1117 116,1117 L116,1117 Z M116,1087 C107.164,1087 100,1094.16 100,1103 C100,1111.84 107.164,1119 116,1119 C124.836,1119 132,1111.84 132,1103 C132,1094.16 124.836,1087 116,1087 L116,1087 Z M120.536,1102.12 L112.879,1094.46 C112.488,1094.07 111.855,1094.07 111.464,1094.46 C111.074,1094.86 111.074,1095.49 111.464,1095.88 L118.586,1103 L111.464,1110.12 C111.074,1110.51 111.074,1111.14 111.464,1111.54 C111.855,1111.93 112.488,1111.93 112.879,1111.54 L120.536,1103.88 C120.775,1103.64 120.85,1103.31 120.795,1103 C120.85,1102.69 120.775,1102.36 120.536,1102.12 L120.536,1102.12 Z"
+													id="chevron-right-circle"
+													sketch:type="MSShapeGroup"
+												></path>
+											</g>
+										</g>
+									</g>
+								</svg>
+							</button>
+							<button class="main-section1__btn2">Оставить заявку</button>
+						</div>
+					</div>
+				</section>
+
+				<section class="main__section2 section2">
+					<div class="main-section2__container">
+						<div class="main-section2__wrap">
+							<div class="main-section2__school-wrap">
+								<div class="main-section2__school">
+									<h2 class="main-section2__about">О ШКОЛЕ</h2>
+									<p class="main-section2__description1">
+										В SmartCastle мы стремимся дать студентам Шымкента и
+										ближайших городов
+										<span class="main-section2__description1-under"
+											>доступ к качественному обучению в сфере программирования
+											и IT.</span
+										>
+									</p>
+									<p class="main-section2__description2">
+										Мы верим, что регион с таким потенциалом, как наш, достоин
+										сильного IT-сообщества. Через развитие школы
+										программирования
+										<span class="main-section2__description2-under"
+											>мы формируем новое поколение специалистов, способных
+											развивать цифровую индустрию в Казахстане.</span
+										>
+									</p>
+								</div>
+								<div class="main-section2__carousel">
+									<div class="main-section2__carousel-wrap">
+										<div class="main-section2__carousel-img" id="carousel">
+											<img src="src/image/carusel/ca1.png" alt="carousel" />
+											<img src="src/image/carusel/ca2.png" alt="carousel" />
+											<img src="src/image/carusel/ca3.png" alt="carousel" />
+											<img src="src/image/carusel/ca4.png" alt="carousel" />
+											<img src="src/image/carusel/ca5.png" alt="carousel" />
+											<img src="src/image/carusel/ca6.png" alt="carousel" />
+											<img src="src/image/carusel/ca7.png" alt="carousel" />
+										</div>
+
+										<div class="main-section2__carousel-btns">
+											<button id="prev" class="main-section2__carousel-btn1">
+												<svg
+													width="40"
+													height="44"
+													viewBox="0 0 40 44"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M2.5151 26.3897C-0.838371 24.5191 -0.838365 19.4809 2.5151 17.6103L33.0292 0.589529C36.1884 -1.17265 40 1.22764 40 4.9792L40 39.0208C40 42.7724 36.1884 45.1726 33.0292 43.4105L2.5151 26.3897Z"
+														fill="#3D6DE7"
+													/>
+												</svg>
+											</button>
+											<p id="counter" class="main-section2__carousel-text">
+												1/7
+											</p>
+											<button id="next" class="main-section2__carousel-btn2">
+												<svg
+													width="40"
+													height="44"
+													viewBox="0 0 40 44"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M37.4849 17.6103C40.8384 19.4809 40.8384 24.5191 37.4849 26.3897L6.9708 43.4105C3.81164 45.1727 -1.56042e-06 42.7724 -1.42355e-06 39.0208L-1.8165e-07 4.97918C-4.47859e-08 1.22762 3.81165 -1.17265 6.9708 0.589528L37.4849 17.6103Z"
+														fill="#3D6DE7"
+													/>
+												</svg>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="main-section2__footer">
+								<p class="main-section2__footer-text">
+									Наша цель —
+									<span class="main-section2__footer-weight1"
+										>обучать созданию мобильных и веб-приложений, давая реальные
+										навыки, востребованные на рынке.</span
+									>
+									Мы хотим не просто подготовить студентов к карьере, а
+									<span class="main-section2__footer-weight2">
+										изменить будущее региона,</span
+									>
+									позволив ему быть впереди других и обеспечив его процветание в
+									современном информационном обществе.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="main__section3 section3">
+					<div class="main-section3__container">
+						<h2 class="main-section3__title">
+							мы – <br />
+							<span>Smart castle</span>
+						</h2>
+						<div class="main-section3__our">
+							<div>
+								<img src="src/assets/icons/bag.png" alt="bag" />
+								<h3>Практика</h3>
+								<p>Финальный проект и/или стажировка в компании</p>
+							</div>
+							<div>
+								<img src="src/assets/icons/studenthat.png" alt="studenthat" />
+								<h3>Преподаватели</h3>
+								<p>Со стажем и кейсами работы с крупными брендами</p>
+							</div>
+							<div>
+								<img src="src/assets/icons/programs.png" alt="programs" />
+								<h3>программы</h3>
+								<p>
+									С комплексным подходом к обучению мобильной и web разработке
+								</p>
+							</div>
+							<div>
+								<img
+									src="src/assets/icons/certification.png"
+									alt="certification"
+								/>
+								<h3>Сертификация</h3>
+								<p>
+									При успешном прохождении курса выдается сертификат об
+									окончании обучения
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="main__section4 section4">
+					<div class="main-section4__container">
+						<h2 class="main-section4__title">НАШИ <span>КУСРЫ</span></h2>
+						<div class="main-section4__courses">
+							<div class="main-section4__courses-wrapper1">
+								<img
+									class="main-section4__courses-img"
+									src="src/assets/fontend.png"
+									alt="frontimg"
+								/>
+								<h3 class="main-section4__courses-title1">
+									Front-end разработка
+								</h3>
+								<p class="main-section4__courses-description">
+									Освой HTML, CSSи JavaScript и научись создавать современные,
+									стильные сайты с нуля.
+								</p>
+								<a class="main-section4__courses-btn" href="#">Подробнее</a>
+							</div>
+							<div class="main-section4__courses-wrapper1">
+								<img
+									class="main-section4__courses-img"
+									src="src/assets/backend.png"
+									alt="frontimg"
+								/>
+								<h3 class="main-section4__courses-title1">
+									back-end разработка
+								</h3>
+								<p class="main-section4__courses-description">
+									Изучи Python и Django, чтобы разрабатывать надёжные
+									веб-сервисыи управлять логикой сайтов.
+								</p>
+								<a class="main-section4__courses-btn" href="#">Подробнее</a>
+							</div>
+							<div class="main-section4__courses-wrapper1">
+								<img
+									class="main-section4__courses-img"
+									src="src/assets/ios.png"
+									alt="frontimg"
+								/>
+								<h3 class="main-section4__courses-title1">
+									разработка под ios
+								</h3>
+								<p class="main-section4__courses-description">
+									Научись писать приложения на Swift и создавайсобственные
+									проектыдля iPhone и iPad.
+								</p>
+								<a class="main-section4__courses-btn" href="#">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="main__section5 section5">
+					<div class="main-section5__container">
+						<h3 class="main-section5__title">
+							Преподаватели <span>школы</span>
+						</h3>
+						<div class="main-section5__mentors-wrp">
+							<div class="main-section5__mentor">
+								<div class="main-section5__mentor-img">
+									<img src="src/image/mentors/mentor1.png" alt="mentor1" />
+								</div>
+								<div class="main-section5__mentor-data">
+									<h4 class="main-section5__mentor-name">РАЙЫМБЕК ДУРБЕНОВ</h4>
+									<p class="main-section5__mentor-stack">front-end developer</p>
+									<ul class="main-section5__mentor-about">
+										<li>Должность - Full-stack разработчик, директор</li>
+										<li>Опыт работы - Smart Castle</li>
+										<li>
+											Образование - Евразийский Национальный Университет
+											(докторантура), город Астана
+										</li>
+										<li>Специальность - Информационные системы</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="main-section5__mentor">
+								<div class="main-section5__mentor-img">
+									<img src="src/image/mentors/mentor2.png" alt="mentor2" />
+								</div>
+								<div class="main-section5__mentor-data">
+									<h4 class="main-section5__mentor-name">УАЛИХАН САБДЕН</h4>
+									<p class="main-section5__mentor-stack">iOS developer</p>
+									<ul class="main-section5__mentor-about">
+										<li>Должность - iOS Developer (Senior)</li>
+										<li>
+											Опыт работы - Альфа-Банк РФ, Halyk Bank, KASE, QBazar
+										</li>
+										<li>
+											Образование - Академический инновационный университет,
+											город Шымкент
+										</li>
+										<li>
+											Специальность - Информационные системы / Вычислительная
+											техника и программное обеспечение
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="main-section5__mentor">
+								<div class="main-section5__mentor-img">
+									<img src="src/image/mentors/mentor3.png" alt="mentor3" />
+								</div>
+								<div class="main-section5__mentor-data">
+									<h4 class="main-section5__mentor-name">АРМАН БАЗАРБАЕВ</h4>
+									<p class="main-section5__mentor-stack">iOS developer</p>
+									<ul class="main-section5__mentor-about">
+										<li>Должность - Android/Flutter разработчик (Middle)</li>
+										<li>Опыт работы - Evrika</li>
+										<li>
+											Образование - Университет имени Сулеймана Демиреля (SDU),
+											город Алматы
+										</li>
+										<li>
+											Специальность - Вычислительная техника и программного
+											обеспечения
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="main-section5__mentor">
+								<div class="main-section5__mentor-img">
+									<img src="src/image/mentors/mentor4.png" alt="mentor4" />
+								</div>
+								<div class="main-section5__mentor-data">
+									<h4 class="main-section5__mentor-name">БЕКАРЫС ТОЛКЫНБАЕВ</h4>
+									<p class="main-section5__mentor-stack">front-end developer</p>
+									<ul class="main-section5__mentor-about">
+										<li>
+											Должность - Front-End разработчик, более 4 лет опыта в
+											разработке
+										</li>
+										<li>Опыт работы - Evrika</li>
+										<li>Образование - Dulaty University, город Тараз</li>
+										<li>Специальность - Machine Engineer</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="main__section6 section6">
+					<div class="main-section6__container">
+						<div class="main-section6__container-wrp">
+							<h3 class="main-section6__title">
+								Методика <span>обучения</span>
+							</h3>
+							<div class="main-section6__content-wrp">
+								<div class="main-section6__content1">
+									<h4 class="main-section6__content-title">Индивидуальность</h4>
+									<p class="main-section6__content-description">
+										Наше обучение будет строится в соответствии с уровнем знаний
+										и потребностями учащихся. Это включает в себя курсы на
+										разных уровнях сложности, индивидуальный подход к каждому
+										ученику, а также возможность получения сертификатов после
+										окончания курсов.
+									</p>
+								</div>
+								<div class="main-section6__content2">
+									<h4 class="main-section6__content-title">доступность</h4>
+									<p class="main-section6__content-description">
+										Занятия проводятся в вечернее время в будние дни, либо на
+										выходных. Таким образом возможности для обучения будут у
+										всех желающих.
+									</p>
+								</div>
+								<div class="main-section6__content3">
+									<h4 class="main-section6__content-title">технологичность</h4>
+									<p class="main-section6__content-description">
+										Мы оборудовали наши классы высокопроизводительными
+										компьютерами, проекторами и высокоскоростным интернетом для
+										создания всех условия качественного обучения.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="main-section7 section7">
+					<div class="main-section7__container">
+						<h3 class="main-section7__title">
+							smart castle - <br />
+							<span>крепость знаний!</span>
+						</h3>
+						<p class="main-section7__description">
+							Будь в курсе последних новостей и новых потоков!
+						</p>
+						<a class="main-section7__btn" href="#">
+							Подпишись на Instagram
+							<svg
+								viewBox="0 0 16 16"
+								class="bi bi-instagram"
+								fill="currentColor"
+								height="16"
+								width="16"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+								></path>
+							</svg>
+						</a>
+					</div>
+				</section>
+			</main>
+			<footer class="footer footer_page">
+				<div class="footer__container">
+					<div class="footer__logo-wrp">
+						<img class="footer__logo" src="src/assets/logo.png" alt="logo" />
+						<h3 class="footer__title">Школа программирования</h3>
+					</div>
+					<div class="footer__contacts">
+						<div class="footer-contacts__block1">
+							<img
+								width="33"
+								height="33"
+								class="foonter__phone-img"
+								src="src/assets/icons/phone.png"
+								alt="phone"
+							/>
+							<div>
+								<p class="footer-contacts__block1-phone">телефон</p>
+								<p class="footer-contacts__block1-number">+7 777 135 02 47</p>
+							</div>
+						</div>
+						<div class="footer-contacts__block2">
+							<img
+								width="33"
+								height="33"
+								class="footer__location-img"
+								src="src/assets/icons/location.png"
+								alt="location"
+							/>
+							<div>
+								<p class="footer-contacts__block2-phone">Адрес</p>
+								<p class="footer-contacts__block2-number">
+									г. Шымкент, пр. Тауке хана, 2а <br />БЦ Miras, каб 35
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="src/js/index.js"></script>
+	</body>
+</html>
