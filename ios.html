@@ -4,11 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Smart Castle</title>
-		<link rel="stylesheet" href="src/css/ios.css" />
+		<link rel="stylesheet" href="src/css/course.css" />
 		<link rel="stylesheet" href="src/css/style.css" />
 	</head>
 	<body>
 		<div class="wrapper__ios">
+			<button id="scrollToTopBtn" class="scroll-to-top">></button>
 			<div id="header-placeholder"></div>
 			<main class="main">
 				<section class="main-section1">
@@ -18,7 +19,7 @@
 								разработка <br />
 								<span>IOS-приложений</span>
 							</h1>
-							<p class="section1__description">
+							<p class="front-section1__description">
 								Курс разработки iOS приложений – это практический курс, где
 								студенты изучат язык программирования Swift и интегрированную
 								среду разработки Xcode, чтобы создавать мобильные приложения для
@@ -28,7 +29,7 @@
 								занятия и проектную работу, чтобы подготовить студентов к работе
 								в индустрии мобильной разработки для iOS.
 							</p>
-							<a class="section1__btn">Записаться на курс</a>
+							<a href="#signupios" class="section1__btn">Записаться на курс</a>
 						</div>
 						<div class="section1__block2">.</div>
 					</div>
@@ -195,7 +196,7 @@
 							</ul>
 						</div>
 						<div class="section4__week5">
-							<h3><span>Неделя 5.</span>Классы и структуры.</h3>
+							<h3><span>Неделя 5.</span> Классы и структуры.</h3>
 							<ul>
 								<li>Определение и использование классов и структур.</li>
 								<li>Свойства и методы.</li>
@@ -203,7 +204,7 @@
 							</ul>
 						</div>
 						<div class="section4__week6">
-							<h3><span>Неделя 6.</span>ООП.</h3>
+							<h3><span>Неделя 6.</span> ООП.</h3>
 							<ul>
 								<li>
 									Глубокое погружение в объектно-ориентированное
@@ -213,7 +214,7 @@
 							</ul>
 						</div>
 						<div class="section4__week7">
-							<h3><span>Неделя 7.</span>Протоколы.</h3>
+							<h3><span>Неделя 7.</span> Протоколы.</h3>
 							<ul>
 								<li>
 									Глубокое погружение в объектно-ориентированное
@@ -224,7 +225,7 @@
 						</div>
 						<div class="section4__week8">
 							<h3>
-								<span>Неделя 8.</span>Компоновка элементов UI. Использование
+								<span>Неделя 8.</span> Компоновка элементов UI. Использование
 								Enum.
 							</h3>
 							<ul>
@@ -238,14 +239,14 @@
 							</ul>
 						</div>
 						<div class="section4__week9">
-							<h3><span>Неделя 9.</span>Работа с макетами.</h3>
+							<h3><span>Неделя 9.</span> Работа с макетами.</h3>
 							<ul>
 								<li>Использование Interface Builder и Storyboards.</li>
 								<li>Auto Layout и Constraints для адаптивных интерфейсов.</li>
 							</ul>
 						</div>
 						<div class="section4__week10">
-							<h3><span>Неделя 10.</span>Жизненный цикл и навигация.</h3>
+							<h3><span>Неделя 10.</span> Жизненный цикл и навигация.</h3>
 							<ul>
 								<li>
 									Понимание жизненного цикла приложения и контроллеров
@@ -255,14 +256,14 @@
 							</ul>
 						</div>
 						<div class="section4__week11">
-							<h3><span>Неделя 11.</span>Списки.</h3>
+							<h3><span>Неделя 11.</span> Списки.</h3>
 							<ul>
 								<li>Работа с UITableView и UICollectionView.</li>
 								<li>Создание кастомных ячеек.</li>
 							</ul>
 						</div>
 						<div class="section4__week12">
-							<h3><span>Неделя 12.</span>Библиотеки. Модификаторы доступа.</h3>
+							<h3><span>Неделя 12.</span> Библиотеки. Модификаторы доступа.</h3>
 							<ul>
 								<li>
 									Использование сторонних библиотек через CocoaPods или Swift
@@ -272,14 +273,14 @@
 							</ul>
 						</div>
 						<div class="section4__week13">
-							<h3><span>Неделя 13.</span>Версионный контроль.</h3>
+							<h3><span>Неделя 13.</span> Версионный контроль.</h3>
 							<ul>
 								<li>Основы работы с Git.</li>
 								<li>Использование GitHub для совместной разработки.</li>
 							</ul>
 						</div>
 						<div class="section4__week14">
-							<h3><span>Неделя 14.</span>Многопоточность.</h3>
+							<h3><span>Неделя 14.</span> Многопоточность.</h3>
 							<ul>
 								<li>
 									Основы многопоточности и параллельного программирования.
@@ -288,17 +289,15 @@
 							</ul>
 						</div>
 						<div class="section4__week15">
-							<h3><span>Неделя 15.</span>Многопоточность.</h3>
+							<h3><span>Неделя 15.</span> Сетевые запросы.</h3>
 							<ul>
-								<li>
-									Основы многопоточности и параллельного программирования.
-								</li>
-								<li>Использование Grand Central Dispatch (GCD) и Operation.</li>
+								<li>Основы HTTP.</li>
+								<li>Работа с URLSession для выполнения сетевых запросов.</li>
 							</ul>
 						</div>
 						<div class="section4__week16">
 							<h3>
-								<span>Неделя 16.</span>Хранение данных пользователей. SQL.
+								<span>Неделя 16.</span> Хранение данных пользователей. SQL.
 							</h3>
 							<ul>
 								<li>Core Data и Realm для локального хранения данных.</li>
@@ -335,7 +334,7 @@
 							</ul>
 						</div>
 						<div class="section4__week21">
-							<h3><span>Неделя 21.</span>SwiftUI. Анимация.</h3>
+							<h3><span>Неделя 21.</span> SwiftUI. Анимация.</h3>
 							<ul>
 								<li>
 									Создание анимаций в SwiftUI, использование анимационных
@@ -344,7 +343,7 @@
 							</ul>
 						</div>
 						<div class="section4__week22">
-							<h3><span>Неделя 22.</span>Современные подходы к разработке.</h3>
+							<h3><span>Неделя 22.</span> Современные подходы к разработке.</h3>
 							<ul>
 								<li>
 									Изучение методологий Agile и Scrum для управления проектами
@@ -354,7 +353,7 @@
 							</ul>
 						</div>
 						<div class="section4__week23">
-							<h3><span>Неделя 23.</span>Создание навигации в коде.</h3>
+							<h3><span>Неделя 23.</span> Создание навигации в коде.</h3>
 							<ul>
 								<li>
 									Программная реализация навигации без использования Storyboard.
@@ -366,7 +365,7 @@
 						</div>
 						<div class="section4__week24">
 							<h3>
-								<span>Неделя 24.</span>Тестирование. Оптимизация и инструменты
+								<span>Неделя 24.</span> Тестирование. Оптимизация и инструменты
 								Xcode.
 							</h3>
 							<ul>
@@ -380,7 +379,7 @@
 							</ul>
 						</div>
 						<div class="section4__week25">
-							<h3><span>Неделя 25.</span>Паттерны проектирования.</h3>
+							<h3><span>Неделя 25.</span> Паттерны проектирования.</h3>
 							<ul>
 								<li>
 									Изучение основных паттернов проектирования, применимых в
@@ -391,8 +390,8 @@
 						</div>
 						<div class="section4__week26">
 							<h3>
-								<span>Неделя 26.</span>Push-уведомления. Публикация приложения в
-								App Store.
+								<span>Неделя 26.</span> Push-уведомления. Публикация приложения
+								в App Store.
 							</h3>
 							<ul>
 								<li>
@@ -407,7 +406,7 @@
 						</div>
 						<div class="section4__week27">
 							<h3>
-								<span>Неделя 27.</span>Финальный проект. Начало. / Практика (по
+								<span>Неделя 27.</span> Финальный проект. Начало. / Практика (по
 								выбору)
 							</h3>
 							<ul>
@@ -423,7 +422,7 @@
 						</div>
 						<div class="section4__week28">
 							<h3>
-								<span>Неделя 28.</span>Финальный проект. Начало. / Практика (по
+								<span>Неделя 28.</span> Финальный проект. Начало. / Практика (по
 								выбору)
 							</h3>
 							<ul>
@@ -438,7 +437,7 @@
 						</div>
 						<div class="section4__week29">
 							<h3>
-								<span>Неделя 29.</span>Финальный проект. Защита. / Практика
+								<span>Неделя 29.</span> Финальный проект. Защита. / Практика
 							</h3>
 							<ul>
 								<li>
@@ -453,7 +452,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="main-section5">
+				<section id="signupios" class="main-section5">
 					<div class="section5__container">
 						<h3 class="section5__title">записаться <span>на курс</span></h3>
 						<div class="section5__signup-wrp">
@@ -488,7 +487,8 @@
 					</div>
 				</section>
 			</main>
+			<div id="footer-placeholder"></div>
 		</div>
-		<script src="src/js/ios.js"></script>
+		<script src="src/js/course.js"></script>
 	</body>
 </html>

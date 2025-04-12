@@ -44,6 +44,18 @@ function initBurgerMenu() {
 		}
 	}
 }
+const scrollBtn = document.getElementById('scrollToTopBtn')
+
+window.addEventListener('scroll', () => {
+	scrollBtn.style.display = window.scrollY > 300 ? 'block' : 'none'
+})
+
+scrollBtn.addEventListener('click', () => {
+	window.scrollTo({
+		top: 0,
+		behavior: 'smooth',
+	})
+})
 
 fetch('header.html')
 	.then(res => res.text())
@@ -52,3 +64,10 @@ fetch('header.html')
 		initBurgerMenu()
 	})
 	.catch(err => console.error('Ошибка загрузки header:', err))
+
+fetch('footer.html')
+	.then(res => res.text())
+	.then(data => {
+		document.getElementById('footer-placeholder').innerHTML = data
+	})
+	.catch(err => console.error('Ошибка загрузки footer:', err))
