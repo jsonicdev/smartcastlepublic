@@ -103,4 +103,4 @@ fetch('footer.html')
 	.then(data => {
 		document.getElementById('footer-placeholder').innerHTML = data
 	})
-	.catch(err => console.error('Ошибка загрузки footer:', err))
+	.catch(err => console.error('Ошибка загрузки footer!:', err))
