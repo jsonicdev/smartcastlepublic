@@ -181,6 +181,7 @@ main {
 	padding-top: 60px;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	gap: 50px;
 }
 .main-section1__btn1 {
@@ -201,6 +202,7 @@ main {
 	color: #f81;
 	cursor: pointer;
 	box-shadow: 5px 5px 0 0 rgba(51, 78, 172, 0.5);
+	text-decoration: none;
 }
 .main-section1__btn1:hover {
 	background-color: #f81;
@@ -779,6 +781,32 @@ main {
 	margin-right: 30px;
 	margin-top: 10px;
 }
+
+.scroll-to-top {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	display: none;
+	border: 3px solid #f81;
+	border-radius: 50px;
+	background-color: transparent;
+	color: white;
+	padding: 0px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	z-index: 1000;
+	transform: rotate(-90deg);
+	font-family: 'Organetto', sans-serif;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 110%;
+	color: #3d6de7;
+}
+
+.scroll-to-top:hover {
+	background-color: #555;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 1536px) {
 	.main__section1 {
@@ -815,7 +843,7 @@ main {
 		margin: 0 auto;
 	}
 	.main-section2__container {
-		max-width: 1100px;
+		max-width: 1200px;
 		margin: 0 auto;
 	}
 	.main-section2__about {
@@ -855,7 +883,6 @@ main {
 @media (max-width: 1280px) {
 	.wrapper {
 		width: 100%;
-		border: 1px solid red;
 	}
 	.menu__list li a {
 		margin-right: 20px;
@@ -1397,7 +1424,7 @@ main {
 	/* Footer */
 
 	.footer__container {
-		margin: 0;
+		margin: 0 auto;
 		display: flex;
 		gap: 50px;
 		flex-direction: column-reverse;

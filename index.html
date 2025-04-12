@@ -8,9 +8,10 @@
 	</head>
 	<body>
 		<div class="wrapper">
+			<button id="scrollToTopBtn" class="scroll-to-top">></button>
 			<div id="header-placeholder"></div>
 			<main class="main">
-				<section class="main__section1 section1">
+				<section id="main" class="main__section1 section1">
 					<div class="main-section1__container">
 						<img
 							src="src/assets/logo-mobile.png"
@@ -29,7 +30,7 @@
 							на очных курсах программирования с нуля!
 						</p>
 						<div class="main-section1__btns">
-							<button class="main-section1__btn1">
+							<a href="#course" class="main-section1__btn1">
 								Наши курсы
 								<svg
 									class="main-section__btn-svg"
@@ -62,13 +63,15 @@
 										</g>
 									</g>
 								</svg>
-							</button>
-							<button class="main-section1__btn2">Оставить заявку</button>
+							</a>
+							<a href="frontend.html#signup" class="main-section1__btn2"
+								>Оставить заявку</a
+							>
 						</div>
 					</div>
 				</section>
 
-				<section class="main__section2 section2">
+				<section id="about" class="main__section2 section2">
 					<div class="main-section2__container">
 						<div class="main-section2__wrap">
 							<div class="main-section2__school-wrap">
@@ -196,7 +199,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="main__section4 section4">
+				<section id="course" class="main__section4 section4">
 					<div class="main-section4__container">
 						<h2 class="main-section4__title">НАШИ <span>КУСРЫ</span></h2>
 						<div class="main-section4__courses">
@@ -213,13 +216,15 @@
 									Освой HTML, CSSи JavaScript и научись создавать современные,
 									стильные сайты с нуля.
 								</p>
-								<a class="main-section4__courses-btn" href="#">Подробнее</a>
+								<a class="main-section4__courses-btn" href="frontend.html"
+									>Подробнее</a
+								>
 							</div>
 							<div class="main-section4__courses-wrapper1">
 								<img
 									class="main-section4__courses-img"
 									src="src/assets/backend.png"
-									alt="frontimg"
+									alt="backendimg"
 								/>
 								<h3 class="main-section4__courses-title1">
 									back-end разработка
@@ -228,13 +233,15 @@
 									Изучи Python и Django, чтобы разрабатывать надёжные
 									веб-сервисыи управлять логикой сайтов.
 								</p>
-								<a class="main-section4__courses-btn" href="#">Подробнее</a>
+								<a class="main-section4__courses-btn" href="backend.html"
+									>Подробнее</a
+								>
 							</div>
 							<div class="main-section4__courses-wrapper1">
 								<img
 									class="main-section4__courses-img"
 									src="src/assets/ios.png"
-									alt="frontimg"
+									alt="iosimg"
 								/>
 								<h3 class="main-section4__courses-title1">
 									разработка под ios
@@ -243,12 +250,14 @@
 									Научись писать приложения на Swift и создавайсобственные
 									проектыдля iPhone и iPad.
 								</p>
-								<a class="main-section4__courses-btn" href="#">Подробнее</a>
+								<a class="main-section4__courses-btn" href="ios.html"
+									>Подробнее</a
+								>
 							</div>
 						</div>
 					</div>
 				</section>
-				<section class="main__section5 section5">
+				<section id="mentors" class="main__section5 section5">
 					<div class="main-section5__container">
 						<h3 class="main-section5__title">
 							Преподаватели <span>школы</span>
@@ -340,7 +349,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="main__section6 section6">
+				<section id="methods" class="main__section6 section6">
 					<div class="main-section6__container">
 						<div class="main-section6__container-wrp">
 							<h3 class="main-section6__title">
@@ -404,44 +413,7 @@
 					</div>
 				</section>
 			</main>
-			<footer class="footer footer_page">
-				<div class="footer__container">
-					<div class="footer__logo-wrp">
-						<img class="footer__logo" src="src/assets/logo.png" alt="logo" />
-						<h3 class="footer__title">Школа программирования</h3>
-					</div>
-					<div class="footer__contacts">
-						<div class="footer-contacts__block1">
-							<img
-								width="33"
-								height="33"
-								class="foonter__phone-img"
-								src="src/assets/icons/phone.png"
-								alt="phone"
-							/>
-							<div>
-								<p class="footer-contacts__block1-phone">телефон</p>
-								<p class="footer-contacts__block1-number">+7 777 135 02 47</p>
-							</div>
-						</div>
-						<div class="footer-contacts__block2">
-							<img
-								width="33"
-								height="33"
-								class="footer__location-img"
-								src="src/assets/icons/location.png"
-								alt="location"
-							/>
-							<div>
-								<p class="footer-contacts__block2-phone">Адрес</p>
-								<p class="footer-contacts__block2-number">
-									г. Шымкент, пр. Тауке хана, 2а <br />БЦ Miras, каб 35
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+			<div id="footer-placeholder"></div>
 		</div>
 		<script src="src/js/index.js"></script>
 	</body>
